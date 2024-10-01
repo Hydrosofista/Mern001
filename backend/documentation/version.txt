@@ -1,0 +1,10 @@
+alpha 0.001
+cd C:\GitHub\MernProjects\Mern001
+
+npm init -y
+npm install express mongoose cors
+npm install --save-dev nodemon
+npm install express-router --save
+
+
+Gdzies pod koniec 1.6 materiału błąd

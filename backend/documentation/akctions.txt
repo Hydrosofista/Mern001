@@ -1,0 +1,51 @@
+cd C:\GitHub\MernProjects\Mern001
+
+npm init -y
+npm install express mongoose cors
+npm install --save-dev nodemon
+npm install express-router --save
+
+//-------
+package.json komenda "npm start" uruchamia index.js
+/----
+  "scripts": {
+    "start": "nodemon index.js", // komenda "npm start" uruchamia index.js
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+/---
+//-------
+
+//-------
+MERN-1
+  app
+    controllers
+    models
+    routes
+  node_modules
+  config.js
+  index.js / app.js
+  package-lock.json
+  package.json
+  documentation
+    to-do-list.txt
+    akcje.txt
+    version.txt
+//-------
+
+
+{
+  "name": "Example Name",
+  "event": { "key": "example-key", "val": "example-value" },
+  "city": { "key": "example-city-key", "val": "example-city-value" }
+}
+
+
+{
+  "name": "Hans test",
+  "event": { "key": "front-end", "val": "front-end" },
+  "city": { "key": "warsaw", "val": "Warszawa" }
+}
+
+
+EventController.js
+Zmienione na async/await, ponieważ przy edycji na podstawie filmiku mi nie działało. Jeżeli syntax z kropkami, przecinkami i nawiasami nie był problemem, to wersja mongoose. Używanie async/await jest wpsółczesną (sic!) praktyką.
