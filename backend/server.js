@@ -1,4 +1,3 @@
-//app.js
 const config = require('./config');
 const express = require('express');
 const cors = require('cors');
@@ -26,7 +25,7 @@ app.use(cors());
 const eventsRoutes = require('./app/routes/EventsRoutes')();
 app.use('/events', eventsRoutes);
 
-// liveserver
+// Liveserver
 app.listen(config.app.port, () => {
   console.log(`Server is running on http://localhost:${config.app.port}`);
 });

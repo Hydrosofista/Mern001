@@ -1,0 +1,17 @@
+włączenie aplikacji
+backend: Node.js/Express
+> nodemopn server.js
+frontend: React
+> npm start
+
+
+INFO
+Tabela, lista eventów i osób dodana jako osobny komponent #rozbudowa #czytelność
+
+
+To-Do List
+Dodać odświeżanie po zapisaniu na szokolenie
+
+Graficzna strona projektu
+
+
